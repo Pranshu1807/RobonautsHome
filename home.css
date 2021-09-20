@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Exo 2', sans-serif; 
+
+}
+.secondaryText{
+     font-family: 'Raleway', sans-serif;
+     color: #d18410;
+}
+.subHeading{
+    color: white;
+    font-family:'Raleway', sans-serif ;
+}
+.primaryText{
+    color:black;
+    font-family: 'Judson', serif;
+}
+.header{
+  display: flex;
+ margin-top: 0.8rem;
+}
+.logo{
+    position: relative;
+    left: 2.4rem;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo img{
+    padding-left: 2.1rem ;
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;
+}
+.logo h4{
+    font-style: italic;
+    position: relative;
+    left: 2.64rem;
+    font-size: 0.8rem;
+}
+#navbar{
+    position: absolute;
+    right: 2.1rem;
+}
+#navbar ul{
+    display: flex;
+    margin-top: 1.8rem;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+#navbar a:hover{
+    color: gray;
+}
+#navbar  .current{
+    color: #d18410;
+}
+.home{
+    top: 0px;
+    background: url(Images/1.jpg) no-repeat ;
+    background-size: 59rem 39.3rem;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:30%;
+    left: 45%;
+    max-width: 55%;
+}
+.dynamicText li {
+    overflow: hidden;
+}
+.dynamicText li pre{
+    font-size: 3.2rem;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+  content: '';
+    color: white;
+    border-right: 2px solid white;  
+    animation: typing 5s steps(17) infinite;
+}
+@keyframes typing{
+    0%
+    {
+        width: 0ch;
+    }
+    80%{
+        width: 17ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+.event a{
+    color: white;
+    text-decoration: none;
+margin-top: 0.9rem;
+padding: 0.4rem;
+border: 1px solid white;
+border-radius: 10px;
+font-size: 1rem;
+}
+.event a:hover{
+    color: rgb(160, 158, 158);
+    border: none;
+}
+.event h3{
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+.aboutUs{
+    text-align: center;
+    height:30rem;
+    margin: 0.6rem 0rem;
+}
+.aboutUs H1{
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-bottom: 0.9rem;
+}
+.aboutUs H3{
+    font-size: 1.8rem;
+    margin: 0.6rem;
+
+}
+.aboutUs h4{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0.6rem;
+}
+.aboutUs p{
+    text-align: justify;
+    margin: 0.3rem 16.6rem;
+    font-size: 1.35rem;
+    color: rgba(0, 0, 0, 0.808);
+    font-weight: 500;
+    line-height: 1.5;
+}
+ footer{
+
+   background: rgba(0, 0, 0, 0.89);
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-weight: 600; 
+}
+.copyright{
+    display: flex;
+    padding: 1.5rem;
+}
+.copyright p{
+    margin: 0rem 1.2rem;
+}
+.contact{
+    display: flex;
+    margin-left: 34.8rem;
+    padding: 1.5rem;
+}
+.contact a{
+    text-decoration: none;
+    margin: 0rem 1.2rem;
+}
+.contact a:hover{
+    color: rgb(160, 158, 158);
+    border: none;
+}
+.contact p{
+    margin: 0rem 1.2rem;
+}
