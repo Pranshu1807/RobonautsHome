@@ -1,2 +1,2 @@
 # RobonautsHome
-robonauts-home.netlify.app
+https://robonauts-home.netlify.app
